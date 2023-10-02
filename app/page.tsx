@@ -1,16 +1,18 @@
-import SideBar from "@/components/SideBar";
+"use client";
+import RightSideBar from "@/components/RightSideBar";
+import LeftSideBar from "@/components/LeftSideBar";
+import useLeftSidebarModalStore from "@/hooks/useLeftSidebarModel";
+import { RxCrossCircled } from "react-icons/rx";
 
 export default function Home() {
-  
+  const LeftSidebarModalStore = useLeftSidebarModalStore();
 
   return (
     <>
-      <div className="flex">
-        <SideBar/>
-       
-        <div className="h-screen w-full bg-slate-100  flex justify-center items-center text-white">
-          main div
-        </div>
+      <div className="  flex">
+      <LeftSideBar />
+      <RightSideBar />
+        
       </div>
     </>
   );

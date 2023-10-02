@@ -16,7 +16,7 @@ const SideBar = () => {
   return (
     <>
      <div
-          className={` relative h-screen bg-fuchsia-700 transition-all duration-700 ${
+          className={` z-50 relative h-screen bg-fuchsia-700 transition-all duration-700 ${
             showSidebar ? "w-40" : " w-16"
           }`}
         >
