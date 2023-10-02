@@ -51,8 +51,8 @@ const SideBar = () => {
           {/* toggle butt */}
           <div
             onClick={() => toggleSidebar()}
-            className={` absolute p-2 top-6 -right-6 cursor-pointer bg-fuchsia-800  rounded-md border border-white text-white transition-all duration-500 ${
-              showSidebar ? "  rotate-0" : " rotate-180"
+            className={` absolute p-1 top-6 -right-4 cursor-pointer bg-fuchsia-800  rounded-md border border-white text-white transition-all duration-500 ${
+              showSidebar ? "rotate-0" : " rotate-180"
             }`}
           >
             <AiOutlineArrowRight />
