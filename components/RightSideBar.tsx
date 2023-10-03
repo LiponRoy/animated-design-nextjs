@@ -7,7 +7,7 @@ const LeftSideBar = () => {
   return (
     <>
 
-<div className=" relative h-screen w-full bg-slate-100  flex justify-center items-center text-white">
+<div className=" relative  bg-slate-100  flex justify-center items-center text-white">
           <div className={`absolute h-screen w-40 lg:w-52 top-0 right-0 flex justify-center items-center bg-pink-700 translate duration-300 ${ LeftSidebarModalStore.isOpen?" translate-x-0 opacity-100":"translate-x-full opacity-0"}`}>
             left sidebar
 
